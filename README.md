@@ -19,7 +19,6 @@ This project enables haptic bilateral teleoperation by integrating a Geomagic To
 - Gazebo (for simulation)
 
 ## Installation
-1. **Clone the repository**:
 ```bash
 git clone https://github.com/BrendonM10/HBTS_ROS2
 
@@ -30,7 +29,7 @@ cd ..
 colcon build --symlink-install
 
 source install/setup.bash
-```markdown
+```bash
 ## Usage
 
 To launch the simulation: 
