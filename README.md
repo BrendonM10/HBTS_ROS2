@@ -18,23 +18,6 @@ This project enables haptic bilateral teleoperation by integrating a Geomagic To
 - A control strategy ( I have used a cartesian compliance controller)
 - Gazebo (for simulation)
 
-Dependencies
-
-* Ubuntu 22.04
-
-* ROS2 Humble 
-
-* libfranka
-
-* franka_ros2 (or your custom franka_gazebo setup)
-
-* Geomagic Touch Driver (ROS2 version)
-
-* A control strategy ( I have used a cartesian compliance controller)
-
-* Gazebo (for simulation)
-
-
 ## Installation
 
 git clone https://github.com/BrendonM10/HBTS_ROS2
