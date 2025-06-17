@@ -47,7 +47,7 @@ colcon build --symlink-install
 
 source install/setup.bash
 
-Usage
+## Usage
 
 To launch the simulation: 
 ros2 launch haptic_bilateral_teleoperation_system hbts_sim.launch.py
