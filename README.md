@@ -35,8 +35,9 @@ source install/setup.bash
 ## Usage
 
 To launch the simulation: 
+```bash
 ros2 launch haptic_bilateral_teleoperation_system hbts_sim.launch.py
-
+```
 To launch with the actual franka panda robot: 
 ros2 launch haptic_bilateral_teleoperation_system hbts_franka.launch.py <robot_ip>
 
