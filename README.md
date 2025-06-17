@@ -22,9 +22,9 @@ This project enables haptic bilateral teleoperation by integrating a Geomagic To
 ```bash
 git clone https://github.com/BrendonM10/HBTS_ROS2
 
-rosdep install --from-paths src --ignore-src -r -y
-
 cd ..
+
+rosdep install --from-paths src --ignore-src -r -y
 
 colcon build --symlink-install
 
