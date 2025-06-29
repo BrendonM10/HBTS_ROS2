@@ -8,7 +8,7 @@ from launch_ros.substitutions import FindPackageShare
 
 def generate_launch_description():
     
-    franka_gazebo_launch = IncludeLaunchDescription(
+    franka_agx_launch = IncludeLaunchDescription(
         PythonLaunchDescriptionSource([
             PathJoinSubstitution([FindPackageShare("panda_agx_bringup"), "launch", "agx_scene_panda_joint_traj_vel.launch.py"])
         ]),
@@ -54,7 +54,7 @@ def generate_launch_description():
     
    
     return LaunchDescription([
-        franka_gazebo_launch,
+        franka_agx_launch,
         wrench_relay,
         sensor_filtering,
         GT_node,
