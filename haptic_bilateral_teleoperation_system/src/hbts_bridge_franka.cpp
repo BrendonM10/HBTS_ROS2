@@ -30,7 +30,7 @@ HBTS::HBTS() : Node("HBTS")
 
     //Publishings:
 
-    // Publish the processed pose to the Cartesian motion controller.
+    // Publish the processed pose to the Cartesian compliance controller.
     processed_pose_pub_ = this->create_publisher<geometry_msgs::msg::PoseStamped>(
        "/cartesian_compliance_controller/target_frame", 10);
     
